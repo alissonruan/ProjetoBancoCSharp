@@ -1,0 +1,7 @@
+C:\Users\zanse\source\repos\projetobanco\projetobanco\bin\Debug\projetobanco.exe.config
+C:\Users\zanse\source\repos\projetobanco\projetobanco\bin\Debug\projetobanco.exe
+C:\Users\zanse\source\repos\projetobanco\projetobanco\bin\Debug\projetobanco.pdb
+C:\Users\zanse\source\repos\projetobanco\projetobanco\obj\Debug\projetobanco.csproj.AssemblyReference.cache
+C:\Users\zanse\source\repos\projetobanco\projetobanco\obj\Debug\projetobanco.csproj.CoreCompileInputs.cache
+C:\Users\zanse\source\repos\projetobanco\projetobanco\obj\Debug\projetobanco.exe
+C:\Users\zanse\source\repos\projetobanco\projetobanco\obj\Debug\projetobanco.pdb
