@@ -14,6 +14,7 @@ using System.Threading.Tasks;
             public string RG { get; set; }
             public string CPF { get; set; }
             public string Endereco { get; set; }
+            public int Telefone { get; set; }
         }
 
         class Cliente : Pessoa
@@ -87,6 +88,9 @@ using System.Threading.Tasks;
                 Console.Write("Endereço do cliente: ");
                 novoCliente.Endereco = Console.ReadLine();
 
+                Console.Write("Telefone do Cliente: ");
+                novoCliente.Telefone = int.Parse(Console.ReadLine());
+
             // Definir se é prioritário
             if (novoCliente.Idade >= 60)
                 {
@@ -153,7 +157,7 @@ using System.Threading.Tasks;
                 Console.WriteLine("\n=== FILA DE CLIENTES ===");
                 for (int i = 0; i < quantidadeClientes; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {fila[i].Nome} - Idade: {fila[i].Idade} - RG: {fila[i].RG} - CPF: {fila[i].CPF} - Endereço: {fila[i].Endereco} - Prioritário: {(fila[i].Prioritario ? "Sim" : "Não")}");
+                    Console.WriteLine($"{i + 1}. {fila[i].Nome} - Idade: {fila[i].Idade} - RG: {fila[i].RG} - CPF: {fila[i].CPF} - Endereço: {fila[i].Endereco} - Telefone: {fila[i].Telefone} - Prioritário: {(fila[i].Prioritario ? "Sim" : "Não")}");
                 }
             }
 
