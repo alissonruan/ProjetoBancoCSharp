@@ -157,8 +157,8 @@ using System.Threading.Tasks;
                 Console.WriteLine("\n=== FILA DE CLIENTES ===");
                 for (int i = 0; i < quantidadeClientes; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {fila[i].Nome} - Idade: {fila[i].Idade} - RG: {fila[i].RG} - CPF: {fila[i].CPF} - Endereço: {fila[i].Endereco} - Telefone: {fila[i].Telefone} - Prioritário: {(fila[i].Prioritario ? "Sim" : "Não")}");
-                }
+                Console.WriteLine($"{i + 1}. Nome: {fila[i].Nome} - Idade: {fila[i].Idade} - RG: {fila[i].RG} - CPF: {fila[i].CPF} - Endereço: {fila[i].Endereco} - Telefone: {fila[i].Telefone} - Prioritário: {(fila[i].Prioritario ? "Sim" : "Não")}");
+            }
             }
 
             static void AtenderCliente()
